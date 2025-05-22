@@ -1,0 +1,25 @@
+{
+	"name": "create-wsx",
+	"version": "1.0.0",
+	"description": "",
+	"bin": {
+		"create-wsx": "index.ts"
+	},
+	"main": "index.ts",
+	"scripts": {
+		"dev": "tsx index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@clack/prompts": "^0.10.1",
+		"execa": "^9.5.3"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.21",
+		"tsx": "^4.19.4",
+		"typescript": "^5.8.3"
+	}
+}
