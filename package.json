@@ -1,7 +1,15 @@
 {
 	"name": "create-wsx",
+	"description": "simple tool to create a react app",
 	"version": "1.0.0",
-	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wesenseged/create-wsx.git"
+	},
+	"homepage": "https://github.com/wesenseged/create-wsx",
+	"bugs": {
+		"url": "https://github.com/wesenseged/create-wsx/issues"
+	},
 	"bin": {
 		"create-wsx": "index.ts"
 	},
@@ -10,7 +18,7 @@
 		"dev": "tsx index.ts"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Abenezer Wesenseged",
 	"license": "ISC",
 	"type": "module",
 	"dependencies": {
