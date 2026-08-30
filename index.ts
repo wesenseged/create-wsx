@@ -1,7 +1,7 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env
 
-import { execa } from "execa";
 import * as p from "@clack/prompts";
+import { execa } from "execa";
 import { existsSync, rmSync } from "fs";
 
 p.intro("🏖  create-wsx-app");
